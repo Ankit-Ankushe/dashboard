@@ -9,6 +9,8 @@ export default function App() {
     imageUrl: "",
     id: 1
   });
+
+  // fetch(url)
   const inputRef = React.useRef(null);
 
   const handleChange = (e) => {
@@ -69,6 +71,12 @@ export default function App() {
         <br />
         <input type="submit" value="SUBMIT FORM" />
       </form>
+
+      <div id="container">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 }

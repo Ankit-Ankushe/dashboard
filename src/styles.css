@@ -13,3 +13,13 @@ form {
   margin: auto;
   text-align: justify;
 }
+#container {
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  gap: 10px;
+  margin: auto;
+}
+#container > div {
+  border: 1px solid red;
+  height: 100px;
+}
