@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  color: black;
+  font-weight: 900;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+form {
+  width: 500px;
+  margin: auto;
+  text-align: justify;
+}
